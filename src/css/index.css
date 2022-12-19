@@ -1,0 +1,65 @@
+.background-page {
+  background-image: url("/src/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text {
+  font-size: 0.8rem;
+  color: #696969;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.header-buttons {
+  background: #008B8B;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: semibold;
+  border: 1px solid #008B8B;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-buttons:hover {
+  background-color: #20B2AA;
+  color: #fff;
+  border: 1px solid #20B2AA;
+  transition: all 0.2s ease-in-out;
+}
+
+
+/*******************/
+/***** SECTION *****/
+/*******************/
+
+
+.section-text {
+  width: 400px;
+  height: 100px;
+  padding: 0.5rem;
+}
+
+.number-section {
+  height: 36px;
+}
+
+.save-button-section {
+  background: #008B8B;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: semibold;
+  border: 1px solid #008B8B;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.save-button-section:hover {
+  background-color: #20B2AA;
+  color: #fff;
+  border: 1px solid #20B2AA;
+  transition: all 0.2s ease-in-out;
+}
